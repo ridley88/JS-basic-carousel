@@ -27,7 +27,7 @@ function showImage(i) {
   }
 
   images[index].style.display = "block";
-  dots[index].className = "active";
+  dots[index].className += " active";
 }
 
 // function test() {
